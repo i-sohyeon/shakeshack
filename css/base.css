@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/*모든 페이지에 들어가는 공통서식*/
+
+
+body{
+font-family: 'Noto Sans KR', sans-serif !important;
+color:#333;
+font-size:12px;
+}
+
+a{text-decoration: none;
+color:#333333;}
+
+a:hover{
+/*  text-decoration:underline;*/
+}
+
+.clearfix{
+  clear: both;
+}
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+

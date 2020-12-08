@@ -10,8 +10,8 @@ header {
 
 .logo_font {
     position: sticky;
-    z-index: 130;
-    left: 340px;
+    z-index: 140;
+    width: 500px;
 }
 .header_wrap{
     width: 1280px;
@@ -48,6 +48,7 @@ ul.gnb a {
     text-transform: uppercase;
     font-weight: 500;
     padding: 0px 30px;
+    z-index: 190;
 }
 
 section h2{
@@ -185,7 +186,8 @@ article.brand_story{
 
 .brand_story_wrap>h3{
     font-size: 36px;
-    padding: 50px;
+    padding: 50px 0px 20px 0px;
+    font-weight: bold;
 }
 
 .brand_story_wrap p {
@@ -195,11 +197,23 @@ line-height: 24px;
 
 article.store{
     width: 1280px;
+    height: 620px;
     margin: 0px auto;
-    padding: 50px;
+    padding: 50px 0px 100px 0px;
+    position: relative;
 }
 article.store h2{
     float: right;
+}
+.location{
+    font-size: 120px;
+    position: absolute;
+    right: -70px;
+    top: 300px;
+    transform: rotate(90deg);
+    font-family: 'Ranchers', cursive;
+    opacity: 0.2;
+    letter-spacing: 6px;
 }
 
 ul.store_wrap{
@@ -210,4 +224,115 @@ float: left;
 }
 article.store img{
     width: 400px;
+}
+.store_right_wrap{
+    width: 400px;
+    float: right;
+}
+
+.store_tit{
+    font-size: 24px;
+    padding: 2px 0px 6px 0px;
+    font-weight: bold;
+}
+
+.store_address{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 2px;
+}
+
+.sub_address{
+    font-size: 14px;
+    font-weight: 300;
+    padding-left: 4px;
+}
+
+ul.store_wrap div.img_one{
+    position: relative;
+    overflow: hidden;
+}
+
+div.caption{
+    position: absolute;
+    padding: 10px 4px;
+    width:100%;
+    bottom: -92px;
+    background-color: rgba(67,126,63,.9);
+    color:#fff;
+   text-indent: 10px;
+    font-size: 16px;
+    transition:0.5s;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+div.img_one:hover .caption{
+ 
+        bottom:0px;
+        z-index: 1000; 
+}
+.more_store{ padding: 40px 0px;}
+.more_store a{
+    font-size: 24px;
+    color:#60ae2b;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 4px 14px;
+    transition: 0.3s;
+}
+
+.more_store a:hover{
+    background: #60ae2b;
+    border-radius: 50px;
+    color:#fff;
+    padding: 4px 14px;
+}
+.tel{
+    padding: 2px;
+    font-weight: 800;
+}
+.store_right_wrap ul{    
+    font-size: 18px;
+    line-height: 24px;
+}
+.store_right_wrap ul a:hover{
+    color:#60ae2b;
+}
+
+article.sns{
+    clear: both;
+    width: 1280px;
+    margin: 0 auto;
+}
+article.sns ul{display:block;}
+article.sns li{float: left;padding: 40px 70px;text-align: center;}
+article.sns img{transition: 0.3;}
+article.sns img:hover{
+    opacity: 0.7;
+}
+    
+
+article.sns li p{width: 180px;font-size: 18px;line-height: 20px;}
+footer{
+    clear: both;
+    width: 100%;
+    height: 500px;
+    background: #60ae2b;
+}
+.footer_wrap{
+    width: 1280px;
+    margin: 0px auto;
+}
+footer dl{
+    text-transform: uppercase;
+    width: 300px;
+    padding: 40px 62px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer dt{
+    padding-top: 40px;
 }

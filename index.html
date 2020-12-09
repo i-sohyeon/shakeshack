@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--    ms사의 익스프롤러 브라우저 호환성을 위함    -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <link href="./css/index.css" rel="stylesheet" type="text/css">
     <link href="./css/reset.css" rel="stylesheet" type="text/css">
@@ -11,6 +14,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
 
+    
     <title>쉑쉑버거 홈페이지 리뉴얼</title>
 </head>
 
@@ -95,10 +99,8 @@
             <div class="brand_story_wrap">
                 <!-- <h2>brand story</h2> -->
                 <h3>Stand For Something Good</h3>
-
-                <p>세상에 필요한 사려 깊은 가치<br><br>
-
-                    쉐이크쉑은 신선하고 좋은 재료의 음식과 즐겁고 활기 넘치는<br>
+                <p id="brand_story01">세상에 필요한 사려 깊은 가치</p>
+                <p id="brand_story02">쉐이크쉑은 신선하고 좋은 재료의 음식과 즐겁고 활기 넘치는<br>
                     지역사회의 모임 공간, 그리고 게스트를 향한 따뜻한 호스피탈리티를 통해<br>
                     우리의 핵심 가치인 “Stand For Something Good”을 실천합니다.</p>
             </div>
@@ -220,6 +222,37 @@
                 </li>
             </ul>
         </article>
+
+
+        <article class="gallery">
+            <h2>shakeshack</h2>
+            <img src="./img/pic_01.png" alt="pic01" class="pic01">
+        <div class="pic01_sub">
+            <p>뉴욕에서 온 파인 캐쥬얼 레스토랑, 쉐이크쉑</p>
+            <p>쉐이크쉑은 2001년, 뉴욕 메디슨 스퀘어 공원 복구 사업을 위한 USHG*의 핫도그 카트에서 시작되었습니다.
+                공원 내 "I ♥ TAXI" 아트워크로 꾸며진 핫도그 카트는 매해 여름, 쉑팬들이 길게 줄 섰을 정도로 인기를 끌었습니다.
+                 2004년, 많은 인기에 힘입어 메디슨 스퀘어 공원에 ‘SHAKE SHACK’ 
+                 이라는 간판을 걸고 시작한 것이 전 세계가 사랑하는 브랜드, 쉐이크쉑이 되었습니다.</p>
+                 <p>USHG(유니언 스퀘어 호스피탈리티 그룹)*<br>
+                    미국 유니언스퀘어카페와 미슐랭 가이드 1스타인 그래머시태번, 더 모던 등<br>
+                    10여 개의 외식업체를 운영하는 글로벌 외식 기업</p>
+        </div>
+<div id="box01">
+        <div id="img_box01">
+            <img src="./img/sub_visual01.jpg" alt="sub_visual01">
+            <img src="./img/sub_visual02.jpg" alt="sub_visual01">
+            <img src="./img/sub_visual03.jpg" alt="sub_visual02">
+            <img src="./img/sub_visual04.jpg" alt="sub_visual03">
+        </div>
+
+        <ul class="c_btn01">
+            <li class="on01"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+        </article>
     </section>
 
 
@@ -257,6 +290,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
     <script src="./js/fade_in_out.js"></script>
+    <script src="./js/gallery.js"></script>
 </body>
 
 </html>

@@ -296,6 +296,8 @@
 
     </footer>
 
+    <a href="#" title="페이지 상단으로 바로가기" class="btn_top"><img src="./img/btn_top.png" alt="top button"></a>
+
     <!--아이콘폰트 삽입-->
     <script src=" https://kit.fontawesome.com/a076d05399.js"> </script>
 
@@ -304,6 +306,36 @@
 
     <script src="./js/fade_in_out.js"></script>
     <script src="./js/gallery.js"></script>
+    <script>
+           $(document).ready(function() {
+
+//탑버튼 숨기기
+$('.btn_top').hide();
+});
+
+$(window).scroll(function() {
+const sPos = $(window).scrollTop();
+
+
+if (sPos >= 700) { //스크롤 높이가 700픽셀 이상이면
+    $('.btn_top').fadeIn(); //탑버튼 나오게 하고
+
+} else { //그렇지 않으면
+    $('.btn_top').fadeOut(); //탑버튼 사라지게 함.
+}
+
+
+});
+
+$('.btn_top').click(function() { //탑버튼 클릭시
+$('html, body').animate({
+    scrollTop: '0px'
+}, 300); //화면상단으로 올리기
+
+return false; //새로고침 방지
+});
+
+    </script>
 </body>
 
 </html>

@@ -93,7 +93,7 @@ section .visual>img {
 .c_btn{
     position:absolute;
     z-index: 150;
-    bottom: 2%;
+    bottom: 3%;
     left: 50%;
     
 }
@@ -484,4 +484,12 @@ footer dd{
     position: absolute;
     left: 16%;
 }
+
+.btn_top{
+    position: fixed;
+    z-index: 99;
+    bottom: 40px;
+    right: 45px;
+}
+
 

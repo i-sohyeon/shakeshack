@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
     <!--    css초기화    -->
-   <link href="css/reset.css" rel="stylesheet" type="text/css">
-   
-   <!--   base 공통서식    -->
-       <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <link href="css/reset.css" rel="stylesheet" type="text/css">
+
+    <!--   base 공통서식    -->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
 
     <!--    모바일 서식  -->
     <link href="./css/mobile.css" rel="stylesheet" type="text/css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/favicon.ico">
+
+
 
 </head>
+
 <body>
     <input type="checkbox" id="btn_toggle">
     <input type="checkbox" id="btn_location">
     <header>
         <h1><a href="mindex.html" alt="메인페이지로 바로가기"><img src="./img/t_logo.png" alt="메인로고"></a></h1>
         <label for="btn_toggle">
-           <img src="./img/m_toggle.png" alt="토글버튼" id="toggle">
+            <img src="./img/m_toggle.png" alt="토글버튼" id="toggle">
         </label>
         <label for="btn_location">
             <img src="./img/m_location.png" alt="위치" id="location">
@@ -30,25 +36,34 @@
 
         <nav id="nav_toggle">
             <label for="btn_toggle"><img src="./img/m_close.png" alt="닫기버튼"></label>
+            
             <ul>
-                <li>food & drink</li>
-                <li>brand story</li>
-                <li>delivery</li>
-                <li>location</li>
+                <li><img src="./img/f_logo.png" alt="로고"></li>
+                <li><a href="#" title="">food & drink</a></li>
+                <li><a href="#" title="">brand story</a></li>
+                <li><a href="#" title="">delivery</a></li>
+                <li><a href="#" title="">location</a></li>
             </ul>
         </nav>
 
         <nav id="nav_location">
             <label for="btn_location"><img src="./img/m_close.png" alt="닫기버튼"></label>
             <ul>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
-                <li>dsfdadz v</li>
+                <li><a href="#" title="">강남</a></li>
+                <li><a href="#" title="">청담</a></li>
+                <li><a href="#" title="">두타</a></li>
+                <li><a href="#" title="">분당</a></li>
+                <li><a href="#" title="">고양</a></li>
+                <li><a href="#" title="">인천공항</a></li>
+                <li><a href="#" title="">센트러시티</a></li>
+                <li><a href="#" title="">송도</a></li>
+                <li><a href="#" title="">서면</a></li>
+                <li><a href="#" title="">종각</a></li>
+                <li><a href="#" title="">영등포</a></li>
+                <li><a href="#" title="">용산</a></li>
+                <li><a href="#" title="">대구</a></li>
+                <li><a href="#" title="">대전</a></li>
+
             </ul>
         </nav>
 
@@ -56,6 +71,7 @@
 
     <section>
         <article class="visual">
+            <h2 class="none">비쥬얼영역</h2>
             <img src="./img/m_visual01.jpg" alt="m_visual01" class="act">
             <img src="./img/m_visual02.jpg" alt="m_visual02">
             <img src="./img/m_visual03.jpg" alt="m_visual03">
@@ -66,76 +82,183 @@
                 <li><i class="fas fa-pause"></i></li>
             </ul>
         </article>
+
+        <article class="menu">
+            <h2>food & drink</h2>
+            <div class="menu_wrap">
+                <figure>
+                    <img src="./img/menu_burger01.jpg" alt="menu_burger01">
+                    <figcaption>burger<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_chicken01.jpg" alt="menu_chicken01">
+                    <figcaption>chicken<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_topdog01.jpg" alt="menu_topdog01">
+                    <figcaption>topdog<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_fries01.jpg" alt="menu_fries01">
+                    <figcaption>fries<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_custard01.jpg" alt="menu_custard01">
+                    <figcaption>curstard<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_concretes01.jpg" alt="menu_concretes01">
+                    <figcaption>concretes<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_drinks01.jpg" alt="menu_drinks01">
+                    <figcaption>drink<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_beer01.jpg" alt="menu_beer01">
+                    <figcaption>beer<br><span>자세히보기</span></figcaption>
+                </figure>
+
+                <figure>
+                    <img src="./img/menu_woof01.jpg" alt="menu_woof01">
+                    <figcaption>woof<br><span>자세히보기</span></figcaption>
+                </figure>
+            </div>
+
+
+        </article>
+
+        <article class=banner01>
+            <h2>Stand For Something Good</h2>
+            <p>세상에 필요한 사려 깊은 가치</p>
+            <p>쉐이크쉑은 신선하고 좋은 재료의 음식과 즐겁고 활기 넘치는
+                지역사회의 모임 공간, 그리고 게스트를 향한 따뜻한 호스피탈리티를 통해
+                우리의 핵심 가치인 “Stand For Something Good”을 실천합니다.</p>
+        </article>
+
+        <article class="store">
+            <h2>location</h2>
+
+        </article>
+
+        <article class="sns">
+            <h2>shakeshack SNS</h2>
+            <figure>
+                <img src="./img/sns_insta.png" alt="인스타그램">
+                <figcaption>instagram</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/sns_facebook.png" alt="페이스북">
+                <figcaption>facebook</figcaption>
+            </figure>
+            <figure>
+                <img src="./img/sns_youtube.png" alt="유튜브">
+                <figcaption>youtube</figcaption>
+
+            </figure>
+
+        </article>
+
     </section>
 
-    <footer></footer>
+    <footer>
+        <dl>
+            <dt>for you</dt>
+            <dd>고객센터</dd>
+            <dd>윤리신고센터</dd>
+            <dd>SPC 홈페이지</dd>
+        </dl>
+
+        <dl>
+            <dt>shake shack</dt>
+            <dd>채용안내</dd>
+            <dd>매장안내</dd>
+        </dl>
+
+        <dl>
+            <dt>social</dt>
+            <dd>인스타그램</dd>
+            <dd>네이버 포스트</dd>
+            <dd>유튜브</dd>
+            <dd>페이스북</dd>
+        </dl>
+        <img src="./img/f_logo_white.png" alt="푸터로고">
+    </footer>
 
 
-        <!--아이콘폰트 삽입-->
-        <script src=" https://kit.fontawesome.com/a076d05399.js"> </script>
+    <!--아이콘폰트 삽입-->
+    <script src=" https://kit.fontawesome.com/a076d05399.js"> </script>
 
-        <!--제이쿼리 라이브러리 삽입-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <script>
-            $(document).ready(function () {
+    <!--제이쿼리 라이브러리 삽입-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
 
-// //부모의 높이를 자식요소 이미지의 높이에 자동으로 맞추기
-// $('.visual').height($('.visual img').height());
+            // //부모의 높이를 자식요소 이미지의 높이에 자동으로 맞추기
+            // $('.visual').height($('.visual img').height());
 
-// //브라우저 크기를 조절할 때 마찬가지로 부모의 높이를 자식 요소의 높이와 동일하게 자동 맞추기, 반응형 할 때 많이 쓰임.
-$(window).resize(function () {
-    $('.visual').height($('.visual img').height());
-});
+            // //브라우저 크기를 조절할 때 마찬가지로 부모의 높이를 자식 요소의 높이와 동일하게 자동 맞추기, 반응형 할 때 많이 쓰임.
+            $(window).resize(function () {
+                $('.visual').height($('.visual img').height());
+            });
 
-let num = 0; //초깃값 == 처음 이미지가 보이는 값
+            let num = 0; //초깃값 == 처음 이미지가 보이는 값
 
-//움직이는 함수
-function fadeInOut() {
-    //3초 뒤에 보이는 이미지가 숨겨져야 함.
-    $('.visual img').fadeOut(); //맨위 이미지부터 숨겨짐
-
-
-    if (num == 3) { //마지막 이미지가 보일 때
-        num = 0; //처음이미지가 나오도록 함.
-    } else {
-        num++; //다음 이미지가 나오도록 함.
-    }
-    $('.visual img').eq(num).fadeIn();
-    $('.c_btn li:first-child').html(num + 1 + '/' + imgNum
-    .length); // 1/3            
-};
+            //움직이는 함수
+            function fadeInOut() {
+                //3초 뒤에 보이는 이미지가 숨겨져야 함.
+                $('.visual img').fadeOut(); //맨위 이미지부터 숨겨짐
 
 
-//3초마다 fadeInOut함수를 호출하여 이미지가 자동으로 플레이 되도록한다.
-let Timer = setInterval(fadeInOut, 3000);
+                if (num == 3) { //마지막 이미지가 보일 때
+                    num = 0; //처음이미지가 나오도록 함.
+                } else {
+                    num++; //다음 이미지가 나오도록 함.
+                }
+                $('.visual img').eq(num).fadeIn();
+                $('.c_btn li:first-child').html(num + 1 + '/' + imgNum
+                    .length); // 1/3            
+            };
 
 
-//현재 이미지 번호 표시하기
-let imgNum = $('.visual img');
-console.log(imgNum.length);
-
-$('.c_btn li:first-child').html(num + 1 + '/' + imgNum.length); // 1/3
+            //3초마다 fadeInOut함수를 호출하여 이미지가 자동으로 플레이 되도록한다.
+            let Timer = setInterval(fadeInOut, 3000);
 
 
-//일시정지를 클릭하면 시간을 제거하여 멈추게 하고 아이콘 모양을 play로 변경한다. 
-//play버튼을 클릭하면 'pause'로 변경하고 다시 자동으로 움직이게 된다.
+            //현재 이미지 번호 표시하기
+            let imgNum = $('.visual img');
+            console.log(imgNum.length);
 
-$('.c_btn li i').click(function () {
-    if ($(this).hasClass('fas fa-play')) {
-        //클래스 명의 존재여부를 확인하여
-        //있으면 애니메이션을 실행
-        Timer = setInterval(fadeInOut, 3000);
-        $(this).attr('class', 'fas fa-pause'); //속성값을 변경하여 아이콘 모양을 바꾼다.
-    } else {
-        $(this).attr('class', 'fas fa-play'); //속성값에 play를 넣어주고
-        clearInterval(Timer); //시간을 제거하여 멈추게 한다.
-    }
-});
+            $('.c_btn li:first-child').html(num + 1 + '/' + imgNum.length); // 1/3
 
 
+            //일시정지를 클릭하면 시간을 제거하여 멈추게 하고 아이콘 모양을 play로 변경한다. 
+            //play버튼을 클릭하면 'pause'로 변경하고 다시 자동으로 움직이게 된다.
+
+            $('.c_btn li i').click(function () {
+                if ($(this).hasClass('fas fa-play')) {
+                    //클래스 명의 존재여부를 확인하여
+                    //있으면 애니메이션을 실행
+                    Timer = setInterval(fadeInOut, 3000);
+                    $(this).attr('class', 'fas fa-pause'); //속성값을 변경하여 아이콘 모양을 바꾼다.
+                } else {
+                    $(this).attr('class', 'fas fa-play'); //속성값에 play를 넣어주고
+                    clearInterval(Timer); //시간을 제거하여 멈추게 한다.
+                }
+            });
 
 
-});
-        </script>
-    </body>
+            return false;
+
+        });
+    </script>
+</body>
+
 </html>

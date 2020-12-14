@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:1200px) {
+@media screen and (max-width:1600px) {
 
     .none {
         display: none;
@@ -373,7 +373,8 @@
         position: absolute;
         display: flex;
         padding: 14px 0px;
-        left: 34%;
+        right: 50%;
+        transform: translateX(50%);
         
     }
     footer li{

@@ -183,7 +183,7 @@
     article.menu {
         clear: both;
         width: 100%;
-        height: 1530px;
+        height: 1310px;
         padding: 0px 0px;
         position: relative;
 
@@ -269,7 +269,7 @@
     article.store {
         clear: both;
         width: 100%;
-        height: 360px;
+        height: 390px;
         position: relative;
     }
 
@@ -301,13 +301,13 @@
         border-radius: 50px;
         position:absolute;
         right: 1.5%;
-        bottom: 10px;
+        bottom: 70px;
     }
 
     article.sns {
         clear: both;
         width: 100%;
-        height: 200px;
+        height: 250px;
     }
 
 

@@ -330,7 +330,7 @@ article.sns{
 article.sns ul{display:block;}
 article.sns li{float: left;padding: 40px 70px;text-align: center;}
 article.sns img{padding-top:20px;
-    transition: 0.3;}
+    transition: 0.3s;}
 article.sns img:hover{
     opacity: 0.7;
 }
